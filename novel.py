@@ -1,13 +1,13 @@
-import re
-import random
 
+import random
+from SoundsLike.SoundsLike import Search
+
+"""
 from nltk import pos_tag
 from nltk.corpus import gutenberg, brown
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 import numpy as np
-from SoundsLike.SoundsLike import Search
-
-
+"""
 seed_words = ["story", "poem", "poetry", "book", "sentence", "paragraph", "period", "page", "spine", "print", "bookworm"]
 
 functions = [
